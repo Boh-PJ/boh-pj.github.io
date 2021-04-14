@@ -1,0 +1,157 @@
+
+.footer-fixed {
+    min-width: 99vw;
+    min-height: 99vh;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+
+/* -------------------- navigation bar -------------------- */
+
+#navbar {
+    position: relative;
+    background-color: #eeeeee;
+    padding: 1px 0;
+}
+
+#nav {
+    list-style-type: none;
+    display: table;
+    width: 70%;
+    margin: 0.2% auto;
+    padding: 0;
+}
+
+#nav li {
+    display: table-cell;
+    text-align: center;
+    font-size: 16px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* -------------------- content -------------------- */
+
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+#content {
+    display: table;
+    width: 80%;
+    height: auto;
+    margin: 3% auto;
+    padding: 1px;
+    background-color: #666666;
+}
+
+
+.work {
+    display: table;
+    width: 95%;
+    height: auto;
+    margin: 1% auto;
+}
+
+
+
+/* ---------- split ---------- */
+.split-4 {
+    display: table-cell;
+    width: 40%;
+    height: auto;
+    position: relative;
+}
+
+.split-6 {
+    display: table-cell;
+    width: 60%;
+    height: auto;
+    position: relative;
+}
+
+/* ----- split responsive ----- */
+@media screen and (max-width:1025px) {
+    .split-4 {
+        display: block;
+        width: auto;
+    }
+    .split-6 {
+        display: block;
+        width: auto;
+    }
+    .split-4 p {
+        margin-bottom: 0;
+    }
+    .split-6 p {
+        margin-top: 0;
+    }
+}
+
+
+.work-title {
+    background-color: #eeeeee;
+    vertical-align: middle;
+    padding: 0 1%;
+    text-align: center;
+}
+
+.work-title h3 {
+    font-size: 24px;
+}
+
+.work-title h4 {
+    font-size: 18px;
+}
+
+
+
+.work-content {
+    background-color: #cccccc;
+    text-align: left;
+    padding: 0 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- footer --------------- */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+
+footer p {
+    margin: 0 auto;
+}
