@@ -1,8 +1,9 @@
-
 .footer-fixed {
-    min-width: 99vw;
-    min-height: 99vh;
+    min-width: 100vw;
+    min-height: 100vh;
     position: absolute;
+    top: 0;
+    left: 0;
     box-sizing: border-box;
 }
 
@@ -22,16 +23,19 @@ body {
 
 #nav {
     list-style-type: none;
-    display: table;
+    display: black;
+    white-space: nowrap;
     width: 70%;
-    margin: 0.2% auto;
+    margin: 0.5% auto;
     padding: 0;
 }
 
 #nav li {
-    display: table-cell;
+    display: inline-block;
+    width: 33.3%;
+    white-space: normal;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #nav li a {
@@ -201,5 +205,5 @@ footer {
 
 
 footer p {
-    margin: 0 auto;
+    margin: 1 auto;
 }
