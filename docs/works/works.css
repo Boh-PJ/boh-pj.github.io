@@ -164,7 +164,7 @@ h4{
     color: #000000;
 }
 
-.work-content embed {
+.work-content object {
     position: relative;
     /* pointer-events: none; */
     width: 100%;
@@ -172,17 +172,16 @@ h4{
 }
 
 @media screen and (max-width:1025px) {
-    .work-content embed {
+    .work-content object {
         height: 400px;
     }
 }
 
 @media screen and (max-width:680px) {
-    .work-content embed {
+    .work-content object {
         height: 200px;
     }
 }
-
 
 
 
