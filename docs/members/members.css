@@ -53,8 +53,18 @@ body {
 
 
 
+#logo {
+    width: 150px;
+    margin: 3% auto 0 auto;
+}
+
+#logo img {
+    width: 100%;
+}
+
+
 h1 {
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
     color: #204969;
 }
